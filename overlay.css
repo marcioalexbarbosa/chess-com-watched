@@ -1,0 +1,12 @@
+.overlay-desc {
+  background-color: darkcyan;
+  color: white;
+  font-weight: bold;
+  font-size: 1.8rem;
+  position: absolute;
+  top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  font-family: "Verdana, Helvetica,sans-serif"
+}

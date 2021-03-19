@@ -1,0 +1,22 @@
+{
+  "name": "Mark Chess.com Videos As Watched",
+  "version": "0.0.1",
+  "description": "Automatically add a watched label over chess.com videos when finished",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [{
+    "matches": [
+      "https://www.chess.com/video/player/*"
+    ],
+    "js": ["content.js"],
+    "css": ["overlay.css"]
+  }],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "manifest_version": 2
+}
